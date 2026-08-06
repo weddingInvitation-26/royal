@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Royal Wedding - Pangeran & Putri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-heart"><i class="fas fa-crown"></i></div>
+    <div class="loader-text">Royal Wedding</div>
+  </div>
+
+  <!-- MUSIC CONTROL -->
+  <div class="music-control" id="musicToggle">
+    <i class="fas fa-music"></i>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo"><i class="fas fa-crown"></i> P & P</div>
+      <div class="nav-toggle" id="navToggle">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#couple" class="nav-link">Couple</a>
+        <a href="#story" class="nav-link">Story</a>
+        <a href="#events" class="nav-link">Events</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#rsvp" class="nav-link">RSVP</a>
+        <a href="#wishes" class="nav-link">Wishes</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-frame"></div>
+    <div class="hero-corner hero-corner-tl"></div>
+    <div class="hero-corner hero-corner-tr"></div>
+    <div class="hero-corner hero-corner-bl"></div>
+    <div class="hero-corner hero-corner-br"></div>
+    <div class="hero-inner-frame"></div>
+    <div class="hero-overlay"></div>
+    <div class="petals-container" id="petals"></div>
+    <div class="hero-content">
+      <div class="hero-crown"><i class="fas fa-crown"></i></div>
+      <div class="hero-greeting">The Royal Wedding</div>
+      <h1 class="hero-title">
+        Pangeran <span class="hero-amp">&</span> Putri
+      </h1>
+      <div class="hero-date">01 · 01 · 2027</div>
+      <div class="hero-sub">Kepada Yth. Bapak/Ibu/Saudara/i</div>
+      <div class="hero-name">Tanpa Mengurangi Rasa Hormat,<br/>Kami Mengundang Anda</div>
+      <a href="#rsvp" class="btn btn-primary hero-btn">
+        <i class="fas fa-envelope"></i> Buka Undangan
+      </a>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-mouse"><div class="scroll-dot"></div></div>
+    </div>
+  </section>
+
+  <!-- COUPLE -->
+  <section class="section couple" id="couple">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-subtitle">The Couple</div>
+        <h2 class="section-title">Mempelai</h2>
+        <div class="ornamental-divider">
+          <span class="line"></span>
+          <i class="fas fa-crown crest"></i>
+          <span class="line"></span>
+        </div>
+      </div>
+      <div class="couple-grid">
+        <div class="couple-card reveal-left">
+          <div class="ornate-frame">
+            <div class="ornate-frame-inner">
+              <div class="couple-img-wrapper">
+                <div class="couple-img" style="background: var(--primary);">
+                  <i class="fas fa-user-tie"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 class="couple-name">Pangeran</h3>
+          <p class="couple-parent">Putra dari Bapak & Ibu Keluarga Kerajaan</p>
+          <div class="couple-social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+        <div class="couple-union reveal">
+          <div class="union-icon"><i class="fas fa-crown"></i></div>
+          <div class="union-text">&</div>
+        </div>
+        <div class="couple-card reveal-right">
+          <div class="ornate-frame">
+            <div class="ornate-frame-inner">
+              <div class="couple-img-wrapper">
+                <div class="couple-img" style="background: var(--primary);">
+                  <i class="fas fa-user-tie"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 class="couple-name">Putri</h3>
+          <p class="couple-parent">Putri dari Bapak & Ibu Keluarga Kerajaan</p>
+          <div class="couple-social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section class="section story" id="story">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-subtitle">Our Story</div>
+        <h2 class="section-title">Perjalanan Cinta</h2>
+        <div class="ornamental-divider">
+          <span class="line"></span>
+          <i class="fas fa-crown crest"></i>
+          <span class="line"></span>
+        </div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"><i class="fas fa-crown"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2018</span>
+            <h3>Pertemuan Pertama</h3>
+            <p>Kami bertemu di sebuah acara amal dan langsung merasa ada ikatan yang istimewa. Percakapan malam itu menjadi awal dari sebuah perjalanan indah.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"><i class="fas fa-crown"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2020</span>
+            <h3>Memulai Hubungan</h3>
+            <p>Setelah dua tahun saling mengenal, kami memutuskan untuk melangkah ke jenjang yang lebih serius dan memulai hubungan yang penuh cinta.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"><i class="fas fa-crown"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2026</span>
+            <h3>Bertunangan</h3>
+            <p>Di hadapan keluarga dan sahabat terdekat, kami bertunangan dalam sebuah acara yang penuh kehangatan dan kebahagiaan.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"><i class="fas fa-crown"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2027</span>
+            <h3>Pernikahan</h3>
+            <p>Akhirnya, kami akan bersatu dalam ikatan suci pernikahan. Doa dan restu dari Anda semua adalah hadiah terindah bagi kami.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COUNTDOWN -->
+  <section class="countdown-section" id="countdown">
+    <div class="countdown-overlay"></div>
+    <div class="container">
+      <div class="section-header">
+        <div class="section-subtitle" style="color: var(--gold);">Counting Down</div>
+        <h2 class="section-title" style="color: #fff;">Menuju Hari Bahagia</h2>
+        <div class="ornamental-divider">
+          <span class="line"></span>
+          <i class="fas fa-crown crest" style="color: var(--gold);"></i>
+          <span class="line"></span>
+        </div>
+      </div>
+      <div class="countdown-grid">
+        <div class="countdown-item">
+          <span class="countdown-num" id="days">00</span>
+          <span class="countdown-label">Hari</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-num" id="hours">00</span>
+          <span class="countdown-label">Jam</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-num" id="minutes">00</span>
+          <span class="countdown-label">Menit</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-num" id="seconds">00</span>
+          <span class="countdown-label">Detik</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENTS -->
+  <section class="section events" id="events">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-subtitle">Events</div>
+        <h2 class="section-title">Rangkaian Acara</h2>
+        <div class="ornamental-divider">
+          <span class="line"></span>
+          <i class="fas fa-crown crest"></i>
+          <span class="line"></span>
+        </div>
+      </div>
+      <div class="events-grid">
+        <div class="event-card reveal">
+          <div class="ornate-frame">
+            <div class="ornate-frame-inner">
+              <div class="ornate-corner ornate-corner-tl"></div>
+              <div class="ornate-corner ornate-corner-tr"></div>
+              <div class="ornate-corner ornate-corner-bl"></div>
+              <div class="ornate-corner ornate-corner-br"></div>
+              <div class="event-icon"><i class="fas fa-rings-wedding"></i></div>
+              <h3 class="event-title">Akad Nikah</h3>
+              <div class="event-info">
+                <p><i class="fas fa-calendar"></i> 1 Januari 2027</p>
+                <p><i class="fas fa-clock"></i> 08:00 - 10:00 WIB</p>
+                <p><i class="fas fa-map-marker-alt"></i> Grand Ballroom, Hotel Royal</p>
+                <p class="event-address">Jl. Kemerdekaan No. 123, Jakarta</p>
+              </div>
+              <a href="#" class="btn btn-outline"><i class="fas fa-map-marked-alt"></i> Lihat Lokasi</a>
+            </div>
+          </div>
+        </div>
+        <div class="event-card reveal">
+          <div class="ornate-frame">
+            <div class="ornate-frame-inner">
+              <div class="ornate-corner ornate-corner-tl"></div>
+              <div class="ornate-corner ornate-corner-tr"></div>
+              <div class="ornate-corner ornate-corner-bl"></div>
+              <div class="ornate-corner ornate-corner-br"></div>
+              <div class="event-icon"><i class="fas fa-glass-cheers"></i></div>
+              <h3 class="event-title">Resepsi</h3>
+              <div class="event-info">
+                <p><i class="fas fa-calendar"></i> 1 Januari 2027</p>
+                <p><i class="fas fa-clock"></i> 11:00 - 17:00 WIB</p>
+                <p><i class="fas fa-map-marker-alt"></i> Grand Ballroom, Hotel Royal</p>
+                <p class="event-address">Jl. Kemerdekaan No. 123, Jakarta</p>
+              </div>
+              <a href="#" class="btn btn-outline"><i class="fas fa-map-marked-alt"></i> Lihat Lokasi</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dresscode reveal">
+        <h3><i class="fas fa-tshirt"></i> Dress Code</h3>
+        <div class="dress-colors">
+          <div class="dress-color" style="background: #1B2A4A;" title="#1B2A4A"></div>
+          <div class="dress-color" style="background: #D4AF37;" title="#D4AF37"></div>
+          <div class="dress-color" style="background: #800020;" title="#800020"></div>
+          <div class="dress-color" style="background: #F8F6F2;" title="#F8F6F2"></div>
+        </div>
+        <p>Dress code: Formal Attire / Kebaya</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-subtitle">Gallery</div>
+        <h2 class="section-title">Galeri Foto</h2>
+        <div class="ornamental-divider">
+          <span class="line"></span>
+          <i class="fas fa-crown crest"></i>
+          <span class="line"></span>
+        </div>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item reveal">
+          <div class="gallery-frame">
+            <div class="gallery-corner gallery-corner-tl"></div>
+            <div class="gallery-corner gallery-corner-tr"></div>
+            <div class="gallery-corner gallery-corner-bl"></div>
+            <div class="gallery-corner gallery-corner-br"></div>
+            <div class="gallery-frame-inner">
+              <div class="gallery-img" style="background: linear-gradient(135deg, #1B2A4A, #0A0A1A);">
+                <i class="fas fa-camera"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item reveal">
+          <div class="gallery-frame">
+            <div class="gallery-corner gallery-corner-tl"></div>
+            <div class="gallery-corner gallery-corner-tr"></div>
+            <div class="gallery-corner gallery-corner-bl"></div>
+            <div class="gallery-corner gallery-corner-br"></div>
+            <div class="gallery-frame-inner">
+              <div class="gallery-img" style="background: linear-gradient(135deg, #D4AF37, #A8882E);">
+                <i class="fas fa-camera"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item reveal">
+          <div class="gallery-frame">
+            <div class="gallery-corner gallery-corner-tl"></div>
+            <div class="gallery-corner gallery-corner-tr"></div>
+            <div class="gallery-corner gallery-corner-bl"></div>
+            <div class="gallery-corner gallery-corner-br"></div>
+            <div class="gallery-frame-inner">
+              <div class="gallery-img" style="background: linear-gradient(135deg, #800020, #4A0010);">
+                <i class="fas fa-camera"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item reveal">
+          <div class="gallery-frame">
+            <div class="gallery-corner gallery-corner-tl"></div>
+            <div class="gallery-corner gallery-corner-tr"></div>
+            <div class="gallery-corner gallery-corner-bl"></div>
+            <div class="gallery-corner gallery-corner-br"></div>
+            <div class="gallery-frame-inner">
+              <div class="gallery-img" style="background: linear-gradient(135deg, #2A4A7A, #1B2A4A);">
+                <i class="fas fa-camera"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item reveal">
+          <div class="gallery-frame">
+            <div class="gallery-corner gallery-corner-tl"></div>
+            <div class="gallery-corner gallery-corner-tr"></div>
+            <div class="gallery-corner gallery-corner-bl"></div>
+            <div class="gallery-corner gallery-corner-br"></div>
+            <div class="gallery-frame-inner">
+              <div class="gallery-img" style="background: linear-gradient(135deg, #0D3555, #1B2A4A);">
+                <i class="fas fa-camera"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item reveal">
+          <div class="gallery-frame">
+            <div class="gallery-corner gallery-corner-tl"></div>
+            <div class="gallery-corner gallery-corner-tr"></div>
+            <div class="gallery-corner gallery-corner-bl"></div>
+            <div class="gallery-corner gallery-corner-br"></div>
+            <div class="gallery-frame-inner">
+              <div class="gallery-img" style="background: linear-gradient(135deg, #A8882E, #D4AF37);">
+                <i class="fas fa-camera"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY MODAL -->
+  <div class="gallery-modal" id="galleryModal">
+    <span class="modal-close"><i class="fas fa-times"></i></span>
+    <span class="modal-prev"><i class="fas fa-chevron-left"></i></span>
+    <span class="modal-next"><i class="fas fa-chevron-right"></i></span>
+    <div class="modal-content">
+      <div class="modal-img"></div>
+    </div>
+  </div>
+
+  <!-- RSVP -->
+  <section class="section rsvp" id="rsvp">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-subtitle">RSVP</div>
+        <h2 class="section-title">Konfirmasi Kehadiran</h2>
+        <div class="ornamental-divider">
+          <span class="line"></span>
+          <i class="fas fa-crown crest"></i>
+          <span class="line"></span>
+        </div>
+        <p class="section-text">Mohon konfirmasi kehadiran Anda sebelum 25 Desember 2026</p>
+      </div>
+      <form class="rsvp-form" id="rsvpForm">
+        <div class="form-group full">
+          <label>Nama Lengkap</label>
+          <input type="text" id="name" placeholder="Masukkan nama Anda" required />
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" id="email" placeholder="email@example.com" required />
+        </div>
+        <div class="form-group">
+          <label>No. WhatsApp</label>
+          <input type="tel" id="phone" placeholder="+62 8xx xxxx xxxx" required />
+        </div>
+        <div class="form-group full">
+          <label>Kehadiran</label>
+          <div class="radio-group">
+            <label class="radio-label">
+              <input type="radio" name="attendance" value="hadir" checked />
+              <span class="radio-custom"><i class="fas fa-check"></i></span>
+              Hadir
+            </label>
+            <label class="radio-label">
+              <input type="radio" name="attendance" value="tidak-hadir" />
+              <span class="radio-custom"><i class="fas fa-check"></i></span>
+              Tidak Hadir
+            </label>
+          </div>
+        </div>
+        <div class="form-group full">
+          <label>Jumlah Tamu</label>
+          <select id="guests">
+            <option value="1">1 Orang</option>
+            <option value="2">2 Orang</option>
+            <option value="3">3 Orang</option>
+            <option value="4">4 Orang</option>
+          </select>
+        </div>
+        <div class="form-group full">
+          <label>Pesan & Doa</label>
+          <textarea id="message" rows="4" placeholder="Tulis ucapan dan doa untuk kami..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary form-btn">
+          <i class="fas fa-paper-plane"></i> Kirim
+        </button>
+      </form>
+      <div class="rsvp-success" id="rsvpSuccess">
+        <i class="fas fa-check-circle"></i>
+        <h3>Terima Kasih!</h3>
+        <p>Konfirmasi kehadiran Anda telah kami terima. Sampai jumpa di hari bahagia kami!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WISHES -->
+  <section class="section wishes" id="wishes">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-subtitle">Wishes</div>
+        <h2 class="section-title">Ucapan & Doa</h2>
+        <div class="ornamental-divider">
+          <span class="line"></span>
+          <i class="fas fa-crown crest"></i>
+          <span class="line"></span>
+        </div>
+      </div>
+      <div class="wishes-grid" id="wishesGrid">
+        <div class="wish-card">
+          <div class="wish-avatar"><i class="fas fa-user"></i></div>
+          <div class="wish-body">
+            <h4>Keluarga Besar</h4>
+            <p>Selamat menempuh hidup baru, semoga menjadi keluarga yang sakinah, mawaddah, warahmah.</p>
+            <span class="wish-date">- Hadir (2 Orang)</span>
+          </div>
+        </div>
+        <div class="wish-card">
+          <div class="wish-avatar"><i class="fas fa-user"></i></div>
+          <div class="wish-body">
+            <h4>Sahabat Tercinta</h4>
+            <p>Bahagia selalu untuk kalian berdua! Cinta kalian sungguh menginspirasi.</p>
+            <span class="wish-date">- Hadir (1 Orang)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THANKS -->
+  <section class="section thanks" id="thanks">
+    <div class="thanks-overlay"></div>
+    <div class="container">
+      <div class="thanks-content">
+        <h2>Terima Kasih</h2>
+        <p>Merupakan suatu kehormatan dan kebahagiaan apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kami. Atas perhatian dan kehadirannya, kami ucapkan terima kasih yang sebesar-besarnya.</p>
+        <p class="thanks-signature">Wassalamu'alaikum Warahmatullahi Wabarakatuh</p>
+        <div class="thanks-names">
+          <h3>Pangeran</h3>
+          <span class="thanks-amp">&</span>
+          <h3>Putri</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2027 Pangeran & Putri. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- FLOATING HEARTS -->
+  <div class="floating-hearts" id="floatingHearts"></div>
+
+  <div class="envelope-overlay" id="envelopeOverlay">
+    <div class="envelope-container" id="envelopeContainer">
+      <div class="envelope-card" id="envelopeCard">
+        <div class="envelope-front" id="envelopeFront">
+          <div class="envelope-seal" id="envelopeSeal">
+            <i class="fas fa-heart"></i>
+          </div>
+          <div class="envelope-flap"></div>
+          <div class="envelope-body">
+            <div class="envelope-label">💌</div>
+            <div class="envelope-label-text">Undangan Pernikahan</div>
+          </div>
+        </div>
+        <div class="invitation-card" id="invitationCard">
+          <div class="card-badge">💌</div>
+          <h3 class="card-sub">The Wedding of</h3>
+          <h1 class="card-names">Pangeran &amp; Putri</h1>
+          <div class="card-divider">❤</div>
+          <p class="card-date">01 . 01 . 2027</p>
+          <p class="card-text">Dengan segala hormat, kami mengundang Bapak/Ibu/Saudara/i untuk hadir memberikan doa restu.</p>
+        </div>
+      </div>
+      <button class="envelope-close-btn" id="envelopeClose">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
